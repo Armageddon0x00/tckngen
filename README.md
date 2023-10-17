@@ -23,11 +23,13 @@ A simple utility tool for generating and validating Turkish National Identity Nu
 # Installation
 
 ## Using `go install`
-TODO
+```bash
+go install https://github.com/Armageddon0x00/tckngen
+```
 
 ## From Source
 ```bash
-git clone REPO HERE
+git clone https://github.com/Armageddon0x00/tckngen
 cd tckngen
 go install .
 ```
