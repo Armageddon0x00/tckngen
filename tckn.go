@@ -32,22 +32,22 @@ func showBanner() {
 func showHelp() {
 	fmt.Printf(`
 Generate:
-tckn generate 5
-tckn generate 5 nobanner
-tckn generate endless nobanner
+tckngen generate 5
+tckngen generate 5 nobanner
+tckngen generate endless nobanner
 
 Validate:
-tckn validate 12345678901
-tckn validate exampleNumbers.txt nobanner
-tckn validate exampleNumbers.txt valid nobanner
-tckn validate exampleNumbers.txt invalid nobanner
+tckngen validate 12345678901
+tckngen validate exampleNumbers.txt nobanner
+tckngen validate exampleNumbers.txt valid nobanner
+tckngen validate exampleNumbers.txt invalid nobanner
 
 Write:
-tckn generate 100 nobanner > example100.txt
-tckn generate endless nobanner > endlessTCKN.txt
+tckngen generate 100 nobanner > example100.txt
+tckngen generate endless nobanner > endlessTCKN.txt
 
 Misc:
-time (tckn generate 50000 nobanner > qq && tckn validate qq nobanner && rm qq)
+time (tckngen generate 50000 nobanner > qq && tckngen validate qq nobanner && rm qq)
 `)
 }
 
