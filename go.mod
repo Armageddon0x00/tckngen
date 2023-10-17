@@ -1,4 +1,4 @@
-module github.com/Armageddon0x00/tckngen
+module catakan/tckngen
 
 go 1.21.1
 
