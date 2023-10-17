@@ -24,7 +24,7 @@ A simple utility tool for generating and validating Turkish National Identity Nu
 
 ## Using `go install`
 ```bash
-go install https://github.com/Armageddon0x00/tckngen
+go install github.com/Armageddon0x00/tckngen
 ```
 
 ## From Source
